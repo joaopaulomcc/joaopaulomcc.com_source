@@ -1,4 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://joaopaulomcc.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "elephants"
+title = "joaopaulomcc"
+theme = "JP"
+googleAnalytics = "UA-118399533-1"
+
+[params]
+    github = "https://github.com/joaopaulomcc/"
+    linkedin = "https://www.linkedin.com/in/joaopaulomcc/"
