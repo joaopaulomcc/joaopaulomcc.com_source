@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<section>
+    <h1>{{ .Title }}</h1>
+    <div>
+        {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
+    </div>
+    <div>
+        {{ .Content }}
+    </div>
+</section>
+
+{{ if .PrevInSection }}
+    <div>
+        <a href="{{ .PrevInSection.Permalink }}"><<{{ .PrevInSection.Title }}</a>
+    </div>
+{{ end }}
+{{ if .NextInSection }}
+    <div>
+        <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}>></a>
+    </div>
+{{ end }}
+
+{{ partial "footer.html" . }}

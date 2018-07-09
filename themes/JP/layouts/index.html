@@ -1,7 +1,12 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 
 <h1>joaopaulomcc</h1>
-<p><a href="{{ .Site.Params.github }}">github</a></p>
-<p><a href="{{ .Site.Params.linkedin }}">linkedin</a></p>
+
+<a href="/about">About</a> <a href="/blog">Blog</a> <a href="/projects">Projects</a>
+<br>
+<a href="{{ .Site.Params.github }}">github</a>
+<a href="{{ .Site.Params.linkedin }}">linkedin</a>
+
+
 
 {{ partial "footer.html" . }}

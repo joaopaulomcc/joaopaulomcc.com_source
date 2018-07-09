@@ -1,0 +1,11 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" .}}
+
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ range .Data.Pages.ByPublishDate.Reverse }}
+    <span><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}</span> 
+    {{ truncate 150 .Content }}
+{{ end }}
+
+{{ partial "footer.html" . }}
