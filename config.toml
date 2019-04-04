@@ -1,9 +1,44 @@
 baseURL = "https://joaopaulomcc.com/"
 languageCode = "en-us"
 title = "joaopaulomcc"
-theme = "JP"
+theme = "pristine"
+
+canonifyURLs = true
+enableEmoji = true
 googleAnalytics = "UA-118399533-1"
 
 [params]
-    github = "https://github.com/joaopaulomcc/"
-    linkedin = "https://www.linkedin.com/in/joaopaulomcc/"
+    portrait = "img/portrait.jpg"
+
+#-------------------------------------------------------------------
+# Contact Information
+
+[[params.social]]
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/joaopaulomcc/"
+
+[[params.social]]
+    title = "Github"
+    url = "https://github.com/joaopaulomcc/"
+
+[[params.social]]
+    title = "Twitter"
+    url = "https://twitter.com/joaopaulomcc"
+
+#--------------------------------------------------------------------
+# Menus
+
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/all/"
+  weight = 2
+
+[[menu.projects]]
+  name = "Flying Circus"
+  url = "https://joaopaulomcc.com/flyingcircus"
+  weight = 1
