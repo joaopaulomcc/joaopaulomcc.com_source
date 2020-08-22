@@ -4,7 +4,7 @@ date: 2019-04-04
 draft: False
 ---
 
-Hello and welcome to my personal website! I am João Paulo an Aeronautical Enginner currently living in Brazil.
+Hello and welcome to my personal website! I am João Paulo an Aeronautical Engineer currently living in Brazil.
 
 Here you can find information abou me, my Blog, and the projects that I am working on my free time.
 
@@ -18,7 +18,7 @@ Feel free to contact me using the links bellow, thank you for your visit!
 + **2013 - 2015**: Guide and Educator at [Dietrich Scheil Observatory][ODS]
 
 ### Education
-+ **2016 - today**: Master of Engineering at [Instituto Tecnológico de Aeronáutica - ITA][ITA]
++ **2016 - 2019**: Master of Engineering at [Instituto Tecnológico de Aeronáutica - ITA][ITA]
 + **2010 - 2015**: Bachelor of Aeronautical Engineering at [Universidade de São Paulo - USP][USP]
 
 [ODS]: http://www.cdcc.usp.br/cda/
